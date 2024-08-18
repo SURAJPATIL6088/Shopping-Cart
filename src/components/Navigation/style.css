@@ -1,0 +1,38 @@
+
+.nav__container{
+    background-color: aquamarine;
+
+}
+
+.nav__sub__container{
+    margin: 0% 6% 0% 6%;    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}
+
+.search__input{
+    padding: 8px;
+    border-radius:4px 0px 0px 4px;
+    width: 320px;
+    border: none;
+}
+
+.serach_btn{
+    padding: 8px;
+    border-radius:0px 4px 4px 0px;   
+    border: none; 
+    cursor: pointer;
+}
+
+.cart__container{
+    width: 2rem;
+    cursor: pointer;
+}
